@@ -1,0 +1,12 @@
+E:\Testing\Drones.Domain\bin\Debug\net6.0\Drones.Domain.deps.json
+E:\Testing\Drones.Domain\bin\Debug\net6.0\Drones.Domain.dll
+E:\Testing\Drones.Domain\bin\Debug\net6.0\Drones.Domain.pdb
+E:\Testing\Drones.Domain\obj\Debug\net6.0\Drones.Domain.csproj.AssemblyReference.cache
+E:\Testing\Drones.Domain\obj\Debug\net6.0\Drones.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Testing\Drones.Domain\obj\Debug\net6.0\Drones.Domain.AssemblyInfoInputs.cache
+E:\Testing\Drones.Domain\obj\Debug\net6.0\Drones.Domain.AssemblyInfo.cs
+E:\Testing\Drones.Domain\obj\Debug\net6.0\Drones.Domain.csproj.CoreCompileInputs.cache
+E:\Testing\Drones.Domain\obj\Debug\net6.0\Drones.Domain.dll
+E:\Testing\Drones.Domain\obj\Debug\net6.0\refint\Drones.Domain.dll
+E:\Testing\Drones.Domain\obj\Debug\net6.0\Drones.Domain.pdb
+E:\Testing\Drones.Domain\obj\Debug\net6.0\ref\Drones.Domain.dll
