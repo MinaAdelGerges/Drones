@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Testing\\Drones.Domain\\Drones.Domain.csproj": {}
+    "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\Drones.Domain.csproj": {}
   },
   "projects": {
-    "E:\\Testing\\Drones.Domain\\Drones.Domain.csproj": {
+    "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\Drones.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Testing\\Drones.Domain\\Drones.Domain.csproj",
+        "projectUniqueName": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\Drones.Domain.csproj",
         "projectName": "Drones.Domain",
-        "projectPath": "E:\\Testing\\Drones.Domain\\Drones.Domain.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Testing\\Drones.Domain\\obj\\",
+        "projectPath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\Drones.Domain.csproj",
+        "packagesPath": "C:\\Users\\minaa\\.nuget\\packages\\",
+        "outputPath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

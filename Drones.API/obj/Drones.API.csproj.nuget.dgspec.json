@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Testing\\Drones.API\\Drones.API.csproj": {}
+    "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.API\\Drones.API.csproj": {}
   },
   "projects": {
-    "E:\\Testing\\Drones.API\\Drones.API.csproj": {
+    "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.API\\Drones.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Testing\\Drones.API\\Drones.API.csproj",
+        "projectUniqueName": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.API\\Drones.API.csproj",
         "projectName": "Drones.API",
-        "projectPath": "E:\\Testing\\Drones.API\\Drones.API.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Testing\\Drones.API\\obj\\",
+        "projectPath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.API\\Drones.API.csproj",
+        "packagesPath": "C:\\Users\\minaa\\.nuget\\packages\\",
+        "outputPath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\minaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Infrastructure\\Drones.Infrastructure.csproj": {
+                "projectPath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Infrastructure\\Drones.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -40,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.17.0, )"
@@ -68,7 +76,151 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\Drones.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\Drones.Domain.csproj",
+        "projectName": "Drones.Domain",
+        "projectPath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\Drones.Domain.csproj",
+        "packagesPath": "C:\\Users\\minaa\\.nuget\\packages\\",
+        "outputPath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Infrastructure\\Drones.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Infrastructure\\Drones.Infrastructure.csproj",
+        "projectName": "Drones.Infrastructure",
+        "projectPath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Infrastructure\\Drones.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\minaa\\.nuget\\packages\\",
+        "outputPath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\minaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\Drones.Domain.csproj": {
+                "projectPath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\Drones.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.7.33, )"
+            },
+            "Hangfire.MemoryStorage.Core": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

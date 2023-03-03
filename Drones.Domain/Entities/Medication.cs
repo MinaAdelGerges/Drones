@@ -4,11 +4,12 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Drones.Domain.Entities
 {
-    public class Medication
+    public class Medication : BaseEntity
     {
 
         public string Name { get; set; }
@@ -16,7 +17,9 @@ namespace Drones.Domain.Entities
         public string Code { get; set; }
         public string Image { get; set; }
 
-        public int DroneId { get; set; }
-        public Drone Drone { get; set; }
+        //Navigation Properties
+        public Nullable<int> DroneId { get; set; }
+        [JsonIgnore]
+        public Drone? Drone { get; set; }
     }
 }

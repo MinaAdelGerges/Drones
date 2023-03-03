@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0maQ1nUCm/EXwXw2BShooOCVATsaCqAlL9VhvWVPbn9doue1CsTdIMvkQXUfETURv9KVwrwOm14qr0t7+jIYgQ==",
+  "dgSpecHash": "3SP24MjRs3cCz07VWYmWhc12mzCI/ML2XQHuTA5p6jt/MpXJS3ioao/r4UmPoZwWEAhF6rBRmFMLX1HyHCrbvw==",
   "success": true,
-  "projectFilePath": "E:\\Testing\\Drones.Domain\\Drones.Domain.csproj",
+  "projectFilePath": "E:\\Work\\Tasks\\Musala-Soft\\Drones\\Drones.Domain\\Drones.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
-    "C:\\Users\\DELL\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+    "C:\\Users\\minaa\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\minaa\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\minaa\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }
